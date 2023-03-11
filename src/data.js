@@ -55,6 +55,7 @@ export const footerData = {
       title: 'Company',
       links: [
         { text: 'About', href: '#' },
+        { text: 'FAQ', href: '/faq' },
         { text: 'Blog', href: '/blog' },
         { text: 'Shop', href: '#' },
       ],
