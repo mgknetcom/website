@@ -47,7 +47,7 @@ export const footerData = {
     {
       title: 'Support',
       links: [
-        { text: 'Uptime', href: '#' },
+        { text: 'Uptime', href: 'https://status.mgknet.com/' },
 
       ],
     },
