@@ -6,4 +6,4 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 [[plugins]]
-package = "./plugins/netlify-purge-cloudflare-on-deploy"
+package = "netlify-purge-cloudflare-on-deploy"
