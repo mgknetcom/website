@@ -10,9 +10,18 @@ export const headerData = {
       text: 'Services',
       links: [
         {
-          text: 'WordPress optimization',
+          text: 'WordPress Optimization',
           href: '/our-wordpress-speed-optimization-services',
         },
+        {
+          text: 'Consulting',
+          href: '/consulting',
+        },
+         {
+          text: 'Audits',
+          href: '/audits',
+        },
+
       ],
     },
     {
@@ -40,6 +49,8 @@ export const footerData = {
     {
       title: 'Services',
       links: [
+        { text: 'Audits', href: '/audits' },
+        { text: 'Consulting', href: '/consulting' },
         { text: 'WordPress optimization', href: '/our-wordpress-speed-optimization-services' },
 
       ],

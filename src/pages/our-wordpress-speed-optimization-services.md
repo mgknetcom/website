@@ -17,7 +17,7 @@ We’ve developed a set of tools that help you make your site faster, including 
 * Sharing of new articles, blog posts, or videos about WordPress and web performance optimization (WPO).
 * Migrations to new hosting companies with **no** extra charge
 
-[Get in touch](https://mgknet.com/contact/)
+[Get in touch](https://mgknet.com/contact)
 
 ##### One-Time WordPress Speed Optimization
 
@@ -31,4 +31,4 @@ We’ve developed a set of tools that help you make your site faster, including 
 * Switch to a better hosting company _only_ if inevitably necessary.
 * Provide information about why each step is important and prepare text-based reports over email to ensure you understand what we do.
 
-[Get in touch](https://mgknet.com/contact/)
+[Get in touch](https://mgknet.com/contact)
