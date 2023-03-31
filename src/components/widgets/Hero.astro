@@ -39,28 +39,16 @@ const {
         </div>
 
         <div class="relative z-10 w-full h-full my-16 lg:my-0 lg:w-7/12">
-            {
-                        image && (
-                            <div class="relative m-auto max-w-5xl">
-                            {typeof image === 'string' ? (
-                                <Fragment set:html={image} />
-                            ) : (
-                                <Picture
-                                class="relative z-40 w-full h-full"
-                                widths={[400, 768, 1024, 2040]}
-                                sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
-                                aspectRatio={1024 / 576}
-                                loading="eager"
-                                width={1024}
-                                height={576}
-                                {...image}
-                                />
-                            )}
-                            </div>
-                        )
-                        }
-            <!-- <img class="relative z-40 w-full h-full" src="https://cdn.devdojo.com/images/june2021/home-hero.png"> -->
-            <div class="box-content absolute inset-0 z-30 hidden scale-150 translate-x-40 translate-y-10 rounded-full w-80 lg:block h-80 xl:w-96 xl:h-96 bg-pink-50"></div>
+                <Picture
+                class="relative z-40 w-full h-full"
+                widths={[400, 768, 1024, 2040]}
+                sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+                aspectRatio={1024 / 576}
+                width={1024}
+                height={576}
+                {...image}
+                />
+            <div class="box-content absolute inset-0 z-30 hidden scale-150 translate-x-40 translate-y-10 rounded-full w-80 lg:block h-80 xl:w-96 xl:h-96 bg-blue-50"></div>
             <div class="absolute bottom-0 left-0 z-20 hidden -translate-x-3 -translate-y-12 rounded-full opacity-50 w-72 lg:block h-72 bg-yellow-50"></div>
             <div class="absolute top-0 left-0 z-20 hidden -translate-x-12 -translate-y-12 rounded-full opacity-50 w-72 lg:block h-72 bg-blue-50"></div>
         </div>

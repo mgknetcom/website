@@ -10,23 +10,27 @@ export const headerData = {
       text: 'Services',
       links: [
         {
+          text: 'WordPress Care Plans',
+          href: '/services/wordpress-care-plans',
+        },
+        {
           text: 'WordPress Optimization',
-          href: '/our-wordpress-speed-optimization-services',
+          href: '/services/wordpress-speed-optimization-services',
         },
         {
           text: 'Consulting',
-          href: '/consulting',
+          href: '/services/consulting',
         },
          {
           text: 'Audits',
-          href: '/audits',
+          href: '/services/audits',
         },
 
       ],
     },
     {
-      text: 'Blog',
-      href: getBlogPermalink(),
+      text: 'About',
+      href: '/about',
     },
     {
       text: 'Contact',
@@ -49,10 +53,11 @@ export const footerData = {
     {
       title: 'Services',
       links: [
-        { text: 'Audits', href: '/audits' },
-        { text: 'Consulting', href: '/consulting' },
-        { text: 'WordPress optimization', href: '/our-wordpress-speed-optimization-services' },
-
+        { text: 'WordPress Otimization', href: '/services/wordpress-speed-optimization-services' },
+        { text: 'WordPress Care Plans', href: '/services/wordpress-care-plans' },
+        { text: 'Consulting', href: '/services/consulting' },
+        { text: 'Audits', href: '/services/audits' },
+        { text: 'Managment', href: '/services/managment' },
       ],
     },
     {

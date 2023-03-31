@@ -14,6 +14,7 @@ We’ve developed a set of tools that help you make your site faster, including 
 * Tweak the optimization whenever a new plugin, theme, or third-party service is introduced.
 * Unlimited questions & answers over email about improving the website and understanding how the website is optimized.
 * More specific comments about how the website can be improved even further (like editing content etc.).
+* Using a CDN for your international audience
 * Sharing of new articles, blog posts, or videos about WordPress and web performance optimization (WPO).
 * Migrations to new hosting companies with **no** extra charge
 
@@ -32,3 +33,5 @@ We’ve developed a set of tools that help you make your site faster, including 
 * Provide information about why each step is important and prepare text-based reports over email to ensure you understand what we do.
 
 [Get in touch](https://mgknet.com/contact)
+
+
