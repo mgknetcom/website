@@ -3,7 +3,7 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Home',
+      text: 'Homes',
       href: '/',
     },
     {
@@ -14,6 +14,10 @@ export const headerData = {
           href: '/services/wordpress-care-plans',
         },
         {
+          text: 'Services',
+          href: getPermalink('/services'),
+        },
+        {
           text: 'WordPress Optimization',
           href: '/services/wordpress-speed-optimization-services',
         },
@@ -21,11 +25,14 @@ export const headerData = {
           text: 'Consulting',
           href: '/services/consulting',
         },
-         {
+        {
+          text: 'Contact',
+          href: getPermalink('/contact'),
+        },
+        {
           text: 'Audits',
           href: '/services/audits',
         },
-
       ],
     },
     {
@@ -37,8 +44,9 @@ export const headerData = {
       href: '/contact',
     },
   ],
+  // actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
-  
+
 export const footerData = {
   links: [
     {
@@ -47,7 +55,6 @@ export const footerData = {
         { text: 'NDA', href: '/non-disclosure-agreements-nda' },
         { text: 'Security', href: '/security' },
         { text: 'Resources', href: '/resources' },
-
       ],
     },
     {
@@ -64,7 +71,6 @@ export const footerData = {
       title: 'Support',
       links: [
         { text: 'Uptime', href: 'https://status.mgknet.com/' },
-
       ],
     },
     {
@@ -83,11 +89,10 @@ export const footerData = {
   ],
   socialLinks: [
     { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
-    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: '#' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/mgknetcom' },
   ],
   footNote: `
-     © 2019 – 2023 MGKNeT LLC All rights reserved.
+    © 2019 – 2023 MGKNeT LLC All rights reserved.
   `,
 };
